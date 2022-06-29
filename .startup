@@ -1,0 +1,2 @@
+cat ~/.startup.txt || echo
+ls -alF
