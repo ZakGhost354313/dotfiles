@@ -1,0 +1,18 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "python3": "ws && python3 {{filepath}}",
+        "python2": "ws && python2 {{filepath}}",
+        "python to C": "cd ~/workspace/chat && cython {{filepath}} --embed",
+        "compile cython": "cd ~/workspace/chat && gcc -Os $(python3-config --includes) {{filename_no_ext}}.c -o {{filename_no_ext}} $(python3-config --ldflags) -l$PYTHONLIBVER"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "https://{{domain3000}}/"
+  }
+}
