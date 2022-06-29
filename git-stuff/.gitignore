@@ -1,6 +1,0 @@
-#logs
-.**log*.json.*
-#test
-*.test.*
-*.test
-test.*
