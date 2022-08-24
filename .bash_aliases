@@ -7,3 +7,5 @@ alias ".."="cd .."
 alias "...."="cd .. && cd .."
 alias "......"="cd .. && cd .. && cd .."
 alias cp="cp -v"
+alias dir=ls
+alias type=cat
