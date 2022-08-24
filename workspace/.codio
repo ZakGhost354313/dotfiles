@@ -6,7 +6,8 @@
         "python3": "ws && python3 {{filepath}}",
         "python2": "ws && python2 {{filepath}}",
         "python to C": "cd ~/workspace/chat && cython {{filepath}} --embed",
-        "compile cython": "cd ~/workspace/chat && gcc -Os $(python3-config --includes) {{filename_no_ext}}.c -o {{filename_no_ext}} $(python3-config --ldflags) -l$PYTHONLIBVER"
+        "compile cython": "cd ~/workspace/chat && gcc -Os $(python3-config --includes) {{filename_no_ext}}.c -o {{filename_no_ext}} $(python3-config --ldflags) -l$PYTHONLIBVER",
+        "node start": "node {{filename}}"
   },
 
 // Preview button configuration
